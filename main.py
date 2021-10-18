@@ -52,6 +52,8 @@ def main():
             l= citireLista(l)
         elif optiune == "2":
             print(elementePrimeDinLista(l))
+        elif optiune == "3":
+            print(MedieAritmetica(l))
         elif optiune == "x":
             break
         else:
